@@ -1,0 +1,7 @@
+﻿services:
+  modulocadastro:
+    image: modulocadastro
+    build:
+      context: .
+      dockerfile: ModuloCadastro/Dockerfile
+
