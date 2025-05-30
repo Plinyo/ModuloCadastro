@@ -15,5 +15,4 @@
 /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/obj/Debug/net8.0/ref/Application.dll
 /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/bin/Debug/net8.0/Infra.dll
 /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/bin/Debug/net8.0/Infra.pdb
-/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/obj/Debug/net8.0/Application.sourcelink.json

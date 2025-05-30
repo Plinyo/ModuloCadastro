@@ -10,3 +10,4 @@
 /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/obj/Debug/net8.0/Domain.pdb
 /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/obj/Debug/net8.0/ref/Domain.dll
 /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/obj/Debug/net8.0/Domain.sourcelink.json

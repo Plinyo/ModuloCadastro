@@ -1,13 +1,139 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/modules.xml
-/contentModel.xml
-/.idea.ModuloCadastro.iml
-/projectSettingsUpdater.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+#############
+## Build ##
+#############
+bin/
+obj/
+out/
+build/
+dist/
+
+#############
+## User-specific ##
+#############
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#################
+## Dotnet files ##
+#################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+*.ncrunch*
+*.vspscc
+*.vssscc
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+#################
+## Logs ##
+#################
+*.log
+logs/
+log/
+
+#################
+## OS generated ##
+#################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+
+#################
+## Environment ##
+#################
+.env
+.env.local
+*.secrets.json
+
+#################
+## Rider ##
+#################
+.idea/
+*.sln.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+#################
+## Docker ##
+#################
+**/docker-compose.override.yml
+**/docker-compose.override.yaml
+**/*.local.yml
+**/*.local.yaml
+
+#################
+## Mongo ##
+#################
+dump/
+*.mongodb
+
+#################
+## Test Results ##
+#################
+TestResult/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testresults
+*.vsmdi
+
+#################
+## Publish ##
+#################
+*.Publish.xml
+.publish/
+
+#################
+## NPM (caso tenha algum front embutido) ##
+#################
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+#################
+## Secrets ##
+#################
+secrets.json
+*.key
+*.pem
+*.crt
+*.pfx
+*.cert
+*.jks
+
+#################
+## Temporary files ##
+#################
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*.orig
+
+#################
+## Database dumps ##
+#################
+*.sql
+*.sqlite
+*.sqlite3
+*.bak
+*.dump

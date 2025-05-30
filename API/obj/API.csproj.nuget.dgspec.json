@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/API/API.csproj": {}
+    "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/API/API.csproj": {}
   },
   "projects": {
-    "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/API/API.csproj": {
+    "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/API/API.csproj",
+        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/API/API.csproj",
+        "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/API/API.csproj",
         "packagesPath": "/Users/plinyomarcos/.nuget/packages/",
-        "outputPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/API/obj/",
+        "outputPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/plinyomarcos/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/Application.csproj": {
-                "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/Application.csproj"
+              "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/Application.csproj": {
+                "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/Application.csproj"
               }
             }
           }
@@ -47,6 +47,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -75,14 +91,14 @@
         }
       }
     },
-    "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/Application.csproj": {
+    "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/Application.csproj",
+        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/Application.csproj",
+        "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/Application.csproj",
         "packagesPath": "/Users/plinyomarcos/.nuget/packages/",
-        "outputPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/obj/",
+        "outputPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/plinyomarcos/.nuget/NuGet/NuGet.Config"
@@ -97,11 +113,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj": {
-                "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj"
+              "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj": {
+                "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj"
               },
-              "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Infra/Infra.csproj": {
-                "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Infra/Infra.csproj"
+              "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Infra/Infra.csproj": {
+                "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Infra/Infra.csproj"
               }
             }
           }
@@ -121,6 +137,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "BCrypt.Net-Core": {
               "target": "Package",
               "version": "[1.6.0, )"
@@ -154,14 +178,14 @@
         }
       }
     },
-    "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj": {
+    "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj",
+        "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj",
         "packagesPath": "/Users/plinyomarcos/.nuget/packages/",
-        "outputPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/obj/",
+        "outputPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/plinyomarcos/.nuget/NuGet/NuGet.Config"
@@ -193,17 +217,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "BCrypt.Net-Core": {
               "target": "Package",
               "version": "[1.6.0, )"
             },
             "MongoDB.Bson": {
               "target": "Package",
-              "version": "[3.4.0, )"
+              "version": "[2.19.0, )"
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.30.0, )"
+              "version": "[2.19.0, )"
             }
           },
           "imports": [
@@ -226,14 +258,14 @@
         }
       }
     },
-    "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Infra/Infra.csproj": {
+    "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Infra/Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Infra/Infra.csproj",
+        "projectUniqueName": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Infra/Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Infra/Infra.csproj",
+        "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Infra/Infra.csproj",
         "packagesPath": "/Users/plinyomarcos/.nuget/packages/",
-        "outputPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Infra/obj/",
+        "outputPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/plinyomarcos/.nuget/NuGet/NuGet.Config"
@@ -248,8 +280,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj": {
-                "projectPath": "/Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Domain/Domain.csproj"
+              "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj": {
+                "projectPath": "/Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Domain/Domain.csproj"
               }
             }
           }
@@ -269,13 +301,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[3.4.0, )"
+              "version": "[2.19.0, )"
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.30.0, )"
+              "version": "[2.19.0, )"
             }
           },
           "imports": [

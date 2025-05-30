@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Application
-build_property.ProjectDir = /Users/plinyomarcos/Documents/Projetos2/ModuloCadastro/Application/
+build_property.ProjectDir = /Users/plinyomarcos/Documents/Projetos/ModuloCadastro/Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

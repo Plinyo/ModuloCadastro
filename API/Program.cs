@@ -1,10 +1,13 @@
 using Application.Handlers;
 using Application.Interfaces;
+using HealthChecks.UI.Client;
 using Infra.Interfaces;
 using Infra.Repositories;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
+using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +40,17 @@ builder.Services.AddSwaggerGen();
 // MongoDB Guid Fix
 BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
 
+// MongoDB Client
+builder.Services.AddSingleton<IMongoClient>(sp =>
+    new MongoClient(builder.Configuration.GetConnectionString("MongoDb")));
+
+// Health Checks (Readiness + Liveness)
+builder.Services.AddHealthChecks()
+    .AddMongoDb(
+        builder.Configuration.GetConnectionString("MongoDb")!,
+        name: "mongodb",
+        tags: new[] { "ready" });
+
 var app = builder.Build();
 
 // Usar Swagger para documentação da API
@@ -49,6 +63,17 @@ app.UseAuthorization();
 
 // Mapear controladores
 app.MapControllers();
+
+app.MapHealthChecks("/health/liveness", new HealthCheckOptions
+{
+    Predicate = _ => false
+});
+
+app.MapHealthChecks("/health/readiness", new HealthCheckOptions
+{
+    Predicate = r => r.Tags.Contains("ready"),
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 // Rodar a aplicação
 app.Run();
